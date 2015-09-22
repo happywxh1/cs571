@@ -1,0 +1,10 @@
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/component/pos/POSConfigTest.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/learn/model/FeatureMapTest.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/learn/vector/VectorTest.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/component/pos/POSDevelop.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/learn/weight/WeightVectorTest.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/benchmark/SGDTest.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/learn/model/LabelMapTest.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/component/pos/AmbiguityClassMapTest.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/benchmark/Benchmark.java
+/Users/happywxh/git/cs571/src/test/java/edu/emory/mathcs/nlp/component/dep/DEPIndexTest.java
