@@ -1,0 +1,10 @@
+edu/emory/mathcs/nlp/component/dep/DEPIndexTest.class
+edu/emory/mathcs/nlp/benchmark/Benchmark.class
+edu/emory/mathcs/nlp/learn/model/FeatureMapTest.class
+edu/emory/mathcs/nlp/learn/weight/WeightVectorTest.class
+edu/emory/mathcs/nlp/component/pos/POSDevelop.class
+edu/emory/mathcs/nlp/component/pos/POSConfigTest.class
+edu/emory/mathcs/nlp/learn/vector/VectorTest.class
+edu/emory/mathcs/nlp/component/pos/AmbiguityClassMapTest.class
+edu/emory/mathcs/nlp/benchmark/SGDTest.class
+edu/emory/mathcs/nlp/learn/model/LabelMapTest.class
