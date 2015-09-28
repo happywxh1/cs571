@@ -84,7 +84,7 @@ public class MyDEPNodeTest
 		
 		/*test categorization*/
 		assertEquals(">yesterday>car", node2.getRightSubcategorization(Field.word_form));
-        assertEquals("<He", node2.getLeftSubcategorization(Field.word_form));
+		assertEquals("<He", node2.getLeftSubcategorization(Field.word_form));
 	}
 }
 
