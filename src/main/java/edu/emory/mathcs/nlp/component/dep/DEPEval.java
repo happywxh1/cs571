@@ -62,6 +62,8 @@ public class DEPEval implements Eval
 	public double score()
 	{
 		return getLAS();
+		/*Xiaohong return UAS score*/
+		//return getUAS();
 	}
 	
 	@Override

@@ -33,16 +33,21 @@ public class DEPFeatureTemplate0 extends DEPFeatureTemplate
 	protected void init()
 	{
 		// lemma features 
+		//i is head of stack
+		//need to mix the stack and input feature to get better performace??!!
+		//need to have joint feature between i and j to improve score
 		add(new FeatureItem<>(Source.i, -1, Field.lemma));
 		add(new FeatureItem<>(Source.i,  0, Field.lemma));
 		add(new FeatureItem<>(Source.i,  1, Field.lemma));
 		
+		//j is input buffer
 		add(new FeatureItem<>(Source.j, -2, Field.lemma));
 		add(new FeatureItem<>(Source.j, -1, Field.lemma));
 		add(new FeatureItem<>(Source.j,  0, Field.lemma));
 		add(new FeatureItem<>(Source.j,  1, Field.lemma));
 		add(new FeatureItem<>(Source.j,  2, Field.lemma));
 		
+		//k is 
 		add(new FeatureItem<>(Source.k,  1, Field.lemma));
 		
 		// pos features
@@ -66,6 +71,7 @@ public class DEPFeatureTemplate0 extends DEPFeatureTemplate
 		add(new FeatureItem<>(Source.j, 0, Field.valency, Direction.all));
 		
 		// 2nd-order features
+		// means come out of dependency
 		add(new FeatureItem<>(Source.i, Relation.h  , 0, Field.lemma));
 		add(new FeatureItem<>(Source.i, Relation.lmd, 0, Field.lemma));
 		add(new FeatureItem<>(Source.i, Relation.rmd, 0, Field.lemma));
