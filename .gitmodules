@@ -1,0 +1,3 @@
+[submodule "hw3/revised_samr"]
+	path = hw3/revised_samr
+	url = https://github.com/happywxh1/cs571.git
